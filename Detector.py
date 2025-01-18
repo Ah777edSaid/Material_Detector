@@ -25,7 +25,7 @@ class ImageClassifier:
         print(f"Predicted material: {decoded_predictions[1]} with confidence {decoded_predictions[2]:.2f}")
         return decoded_predictions
 
-# استخدام الفئة
-image_path = '/content/preprocess_image.jpg'  # أدخل مسار الصورة هنا
-classifier = ImageClassifier()  # إنشاء كائن من الفئة
-classifier.predict_material(image_path)  # استخدام الكائن للتنبؤ
+if __name__ == "__main__":
+    image_path = 'path/to/your/image.jpg'  # Replace with your image path
+    classifier = ImageClassifier()  # Create an instance of ImageClassifier
+    classifier.predict_material(image_path)  # Use the classifier to predict
