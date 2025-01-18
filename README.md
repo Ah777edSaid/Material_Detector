@@ -33,3 +33,13 @@ The output will show predictions for materials in the provided images. The predi
 ```text
 Predicted material: "wood" with confidence 0.89
 ```
+
+
+
+# eaxample to use
+```bash
+!pip install git+https://github.com/Ah777edSaid/MobileNet.git
+predictor = MaterialPredictor(model)
+image_path = "preprocess_image.jpg"
+predictor.predict(image_path)
+```
