@@ -38,8 +38,10 @@ Predicted material: "wood" with confidence 0.89
 
 # eaxample to use
 ```bash
-!pip install git+https://github.com/Ah777edSaid/MobileNet.git
-predictor = MaterialPredictor(model)
-image_path = "preprocess_image.jpg"
-predictor.predict(image_path)
+!pip install git+https://github.com/Ah777edSaid/Pre-recycling_machine.git
+from Detector import MaterialDetector
+if __name__ == "__main__":
+    image_path = '/content/R.jpg'  # Replace with your image path
+    classifier = MaterialDetector()  # Create an instance of ImageClassifier
+    classifier.predict_material(image_path)  # Use the classifier to predict
 ```
