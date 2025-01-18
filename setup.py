@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='image_classifier',  # اسم الحزمة
+    name='Material_Detector',  # اسم الحزمة
     version='0.1',  # النسخة
-    py_modules=['classifier'],  # تحديد الملف الذي يحتوي على الكود
+    py_modules=['Detector'],  # تحديد الملف الذي يحتوي على الكود
     install_requires=[  # الحزم المطلوبة
         'tensorflow>=2.0',
         'opencv-python',
