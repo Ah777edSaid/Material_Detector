@@ -1,7 +1,7 @@
 # MobileNet
 material detection
 
-#requirements
+# requirements
 opencv-python
 tensorflow
 numpy
