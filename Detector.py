@@ -2,7 +2,7 @@ import cv2
 import tensorflow as tf
 import numpy as np
 
-class ImageClassifier:
+class Material_Detector:
     def __init__(self, model=None):
         # تحميل نموذج MobileNet المدرب مسبقًا إذا لم يتم تمريره
         self.model = model or tf.keras.applications.MobileNetV2(weights='imagenet')
